@@ -1,4 +1,4 @@
-def lasit_treso_failu_rindu(fails):
+def tresa_faila_rinda(fails):
     try:
         with open(fails, 'r', encoding='utf-8') as faila_objekts:
             rindas=faila_objekts.readlines()
@@ -13,4 +13,4 @@ def lasit_treso_failu_rindu(fails):
         print(f"Kļūda: {e}")
 
 teksta_fails='teksta_fails.txt'
-lasit_treso_failu_rindu(teksta_fails)
+tresa_faila_rinda(teksta_fails)
